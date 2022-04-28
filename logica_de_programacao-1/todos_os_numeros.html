@@ -1,0 +1,31 @@
+<meta charset = "UTF-8">
+
+<script>
+	function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+
+function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+mostra ("<strong>Números pares de 0 a 100</strong>");
+
+var pares = 2;
+
+while (pares <= 100) {
+	
+	mostra(pares);
+	pares = pares + 2;
+}
+
+mostra ("FIM");
+
+
+
+</script>

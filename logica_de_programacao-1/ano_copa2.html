@@ -1,0 +1,73 @@
+<meta charset = "UTF-8">
+
+<script>
+	function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+
+function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+mostra ("Números de 30 a 40");
+
+var contador = 30;
+
+while (contador <= 40) {
+	
+	if (contador == 33 ) {
+		contador = contador + 1;
+	} 
+	if (contador == 37 ) {
+		contador = contador + 1;
+	} 
+	else {
+		mostra(contador);
+		contador = contador + 1;
+}
+}
+
+mostra ("FIM");
+
+pulaLinha();
+pulaLinha();
+var contador = 20;
+
+    while( contador >= 0) {
+
+      mostra(contador);
+      contador = contador - 1;
+    }
+
+    mostra("FIM");
+
+
+    pulaLinha();
+    pulaLinha();
+    pulaLinha();
+
+
+
+    var anoCopa = 1930;
+    var limite = parseInt(prompt("Qual é o ano limite?"));
+
+    while(anoCopa <= limite) {
+
+        mostra(anoCopa + " tem copa!");
+        anoCopa = anoCopa + 4;
+    }
+
+    
+
+    mostra("Ufa! Esses foram os anos de copa até " + limite);
+
+
+
+
+</script>
+
